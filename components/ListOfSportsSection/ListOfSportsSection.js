@@ -37,9 +37,9 @@ const SportsTile = ({ setImagedBackground, image, sportName }) => (
     <div
       onMouseEnter={() => setImagedBackground(`${image} bg-opacity-75`)}
       onMouseLeave={() => setImagedBackground(`${image} bg-opacity-100`)}
-      //   data-aos-duration="1000"
-      // data-aos="fade-up"
-      // data-aos-delay="400"
+        data-aos-duration="1000"
+      data-aos="fade-up"
+      data-aos-delay="400"
       // className={`relative h-96 w-full bg-black bg-opacity-50 bg-right bg-cover cursor-pointer bg-blend-multiply ${image} hover:bg-opacity-5 filter grayscale hover:grayscale-0`}
       className={`relative transition-all duration-300 bg-black bg-opacity-50 bg-right bg-cover cursor-default lg:w-3/3 w-full bg-blend-multiply ${image} h-96 hover:bg-opacity-5 filter grayscale hover:grayscale-0`}
     >
