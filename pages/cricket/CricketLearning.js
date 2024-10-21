@@ -25,7 +25,7 @@ const CricketLearning = () => {
             data-aos-duration="1000"
             data-aos="fade-up"
             // data-aos-delay="100"
-            src="/assets/Activities/CricketGround.jpg"
+            src="/assets/images/Activities/CricketGround.jpg"
             alt="Cricket Field"
             className="w-full h-auto object-cover rounded-lg shadow-lg  transition-all duration-500"
             onMouseEnter={() => setIsHovered(true)} // Set hover state to true on mouse enter

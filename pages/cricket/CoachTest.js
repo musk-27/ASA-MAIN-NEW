@@ -128,7 +128,7 @@ const CoachTest = () => {
   const coaches = [
     {
       name: "Coach Rahul Singh",
-      image: "/assets/Activities/Image1.jpg",
+      image: "/assets/images/Activities/Image1.jpg",
       description: "Our training programs are designed to push young athletes to their potential while making sure they enjoy the game.",
       achievements: [
         "National Level Coach",
@@ -138,7 +138,7 @@ const CoachTest = () => {
     },
     {
       name: "Coach Priya Kapoor",
-      image: "/assets/Activities/Image1.jpg",
+      image: "/assets/images/Activities/Image1.jpg",
       description: "Our training programs are designed to push young athletes to their potential while making sure they enjoy the game.",
       achievements: [
         "Certified Sports Trainer",

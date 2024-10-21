@@ -14,7 +14,7 @@ const CricketAcademy = () => {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/assets/Cricket/CricketAcademy.jpg")',
+          backgroundImage: 'url("/assets/images/Cricket/CricketAcademy.jpg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           filter: "grayscale(10%)",

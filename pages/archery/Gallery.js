@@ -1,27 +1,27 @@
 export default function Gallery() {
     const images = [
       {
-        src: "/assets/Cricket/1.jpg",
+        src: "/assets/images/Cricket/1.jpg",
         alt: "Archery Event 1",
       },
       {
-        src: "/assets/Cricket/2.jpg",
+        src: "/assets/images/Cricket/2.jpg",
         alt: "Archery Event 2",
       },
       {
-        src: "/assets/Cricket/3.jpg",
+        src: "/assets/images/Cricket/3.jpg",
         alt: "Archery Event 3",
       },
       {
-        src: "/assets/Cricket/4.jpg",
+        src: "/assets/images/Cricket/4.jpg",
         alt: "Archery Event 4",
       },
       {
-        src: "/assets/Cricket/5.jpg",
+        src: "/assets/images/Cricket/5.jpg",
         alt: "Archery Event 5",
       },
       {
-        src: "/assets/Cricket/6.jpg ",
+        src: "/assets/images/Cricket/6.jpg ",
         alt: "Archery Event 6",
       },
     ];
