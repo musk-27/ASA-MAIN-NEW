@@ -1,33 +1,33 @@
 export default function Gallery() {
     const images = [
       {
-        src: "/assets/images/Cricket/1.jpg",
+        src: "/assets/images/Cricket/Gallery1.jpg",
         alt: "Archery Event 1",
       },
       {
-        src: "/assets/images/Cricket/2.jpg",
+        src: "/assets/images/Cricket/Gallery2.jpg",
         alt: "Archery Event 2",
       },
       {
-        src: "/assets/images/Cricket/3.jpg",
+        src: "/assets/images/Cricket/Gallery3.jpg",
         alt: "Archery Event 3",
       },
       {
-        src: "/assets/images/Cricket/4.jpg",
+        src: "/assets/images/Cricket/Gallery4.jpg",
         alt: "Archery Event 4",
       },
       {
-        src: "/assets/images/Cricket/5.jpg",
+        src: "/assets/images/Cricket/Gallery5.jpg",
         alt: "Archery Event 5",
       },
       {
-        src: "/assets/images/Cricket/6.jpg ",
+        src: "/assets/images/Cricket/Gallery6.jpg ",
         alt: "Archery Event 6",
       },
     ];
   
     return (
-      <section className="py-16 px-8 bg-black lg:px-20 shadow-lg">
+      <section className="py-16 px-8 bg-black lg:px-20 shadow-lg ">
         <h2 className="text-xl lg:text-4xl font-bold mt-2 font-akira mb-6 uppercase  text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text text-center">
           Photo & Video Gallery
         </h2>
