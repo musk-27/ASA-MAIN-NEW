@@ -5,7 +5,7 @@ const CricketLearning = () => {
 
   return (
     <section
-      className={`bg-black py-12 px-6 md:px-16 lg:py-32 transition-all duration-500`}
+      className={`bg-black py-12 px-6 md:px-16 lg:py-40 transition-all duration-500`}
       style={{
         // backgroundImage: isHovered
         //   ? 'url("/assets/images/Cricket-bat-ball.webp")'
@@ -25,7 +25,7 @@ const CricketLearning = () => {
             data-aos-duration="1000"
             data-aos="fade-up"
             // data-aos-delay="100"
-            src="/assets/images/Activities/CricketGround.jpg"
+            src="/assets/images/Activities/basketallGround.jpg"
             alt="Cricket Field"
             className="w-full h-auto object-cover rounded-lg shadow-lg  transition-all duration-500"
             onMouseEnter={() => setIsHovered(true)} // Set hover state to true on mouse enter
@@ -59,11 +59,9 @@ const CricketLearning = () => {
               isHovered ? "text-white" : "text-white"
             }`}
           >
-            At [School Name], we take pride in offering some of the finest
-            cricket facilities, designed to provide the best experience for both
-            training and matches. Our cricket grounds are professionally
-            maintained and equipped to meet the standards of competitive
-            cricket.
+            At Arya Gurukul School, we proudly offer top-notch basketball facilities that promote athletic excellence and teamwork. Our modern courts feature high-quality flooring and regulation-sized hoops, providing an ideal environment for practice and competition.
+
+
           </p>
           <p
             // data-aos-duration="1000"
@@ -76,10 +74,7 @@ const CricketLearning = () => {
               isHovered ? "text-white" : "text-white"
             }`}
           >
-            With state-of-the-art practice nets, modern equipment, and top-notch
-            infrastructure, our cricket field allows players to hone their
-            skills under the guidance of experienced coaches. We ensure that
-            every student has access to the best training resources.
+            With state-of-the-art basketball courts, modern training equipment, and top-notch infrastructure, our facilities enable players to develop their skills under the guidance of experienced coaches. We ensure that every student has access to the best resources for training and competition.
           </p>
           {/* <p
             data-aos-duration="1000"

@@ -49,20 +49,22 @@ const AchievementsNumbers = () => {
   }, [counted]);
 
   return (
-    <section ref={sectionRef} className="flex flex-col mt-1 lg:py-20 py-10">
+    <section ref={sectionRef} className="flex flex-col  py-8 lg:py-20">
+      
       <h2
         data-aos-duration="1000"
         data-aos="fade-up"
         data-aos-delay="100"
-        className="xl:text-4xl text-xl text-white font-akira text-center lg:py-10 text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
+        className="xl:text-4xl text-xl text-black font-akira text-center lg:py-10 "
+        // className="xl:text-4xl text-xl text-black font-akira text-center lg:py-10 text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
       >
         Our Outstanding Achievements
       </h2>
       <div className="mt-5 grid grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full max-w-[1200px] mx-auto px-5 font-akira">
         <div
-          data-aos-duration="1000"
-          data-aos="fade-up"
-          data-aos-delay="700"
+          // data-aos-duration="1000"
+          // data-aos="fade-up"
+          // data-aos-delay="700"
           className="flex flex-col justify-center items-center bg-black shadow-md px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center border border-gray-300"
         >
           <div className="flex flex-row justify-center items-center">
@@ -75,9 +77,9 @@ const AchievementsNumbers = () => {
           </p>
         </div>
         <div
-          data-aos-duration="1000"
-          data-aos="fade-up"
-          data-aos-delay="600"
+          // data-aos-duration="1000"
+          // data-aos="fade-up"
+          // data-aos-delay="600"
           className="flex flex-col justify-center items-center bg-black shadow-md px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center border border-gray-300"
         >
           <div className="flex flex-row justify-center items-center">
@@ -90,9 +92,9 @@ const AchievementsNumbers = () => {
           </p>
         </div>
         <div
-          data-aos-duration="1000"
-          data-aos="fade-up"
-          data-aos-delay="800"
+          // data-aos-duration="1000"
+          // data-aos="fade-up"
+          // data-aos-delay="800"
           className="flex flex-col justify-center items-center bg-black shadow-md px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center border border-gray-300"
         >
           <div className="flex flex-row justify-center items-center">
@@ -105,9 +107,9 @@ const AchievementsNumbers = () => {
           </p>
         </div>
         <div
-          data-aos-duration="1000"
-          data-aos="fade-up"
-          data-aos-delay="900"
+          // data-aos-duration="1000"
+          // data-aos="fade-up"
+          // data-aos-delay="900"
           className="flex flex-col justify-center items-center bg-black shadow-md px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-lg justify-self-center border border-gray-300"
         >
           <div className="flex flex-row justify-center items-center">

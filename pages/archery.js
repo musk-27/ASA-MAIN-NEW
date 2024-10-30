@@ -15,6 +15,7 @@ import Facilities from "./archery/Facilities";
 import Testimonials from "./archery/Testimonials";
 import UpcomingEvents from "./archery/UpcomingEvents";
 import Gallery from "./archery/Gallery";
+import Features from "./archery/Features";
 
 const ArcheryPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,7 +38,8 @@ const ArcheryPage = () => {
         <Slider image={"bg-archery"} title={"Archery"} />
       </section>
       {/* Latest Match Results Section */}
-      <div className="bg-black text-white">
+      <div className=" ">
+        <Features/>
       <HeroSection />
       <AboutArchery />
       <TrainingAndCoaches />

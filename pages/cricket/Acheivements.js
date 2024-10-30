@@ -8,7 +8,7 @@ import SliderImage from "./SliderImage";
 
 const Acheivements = () => {
   return (
-    <section className="bg-black  py-12 px-6 md:px-16">
+    <section className="bg-black  py-12 px-6 md:px-16 lg:py-40">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <h2

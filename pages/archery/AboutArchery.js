@@ -4,7 +4,7 @@ export default function AboutArchery() {
   const [hovered, setHovered] = useState(false); // State to track hover on the button
 
   return (
-    <div className={`min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center transition-all duration-300 ${hovered ? 'bg-cover bg-center' : 'bg-white'} bg-no-repeat`} style={{ backgroundImage: hovered ? "url('/assets/Activities/Image1.jpg')" : 'none' }}>
+    <div className={`min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center transition-all duration-300 ${hovered ? 'bg-cover bg-center' : 'bg-white'} bg-no-repeat`} style={{ backgroundImage: hovered ? "url('/assets/Images/Activities/Image1.jpg')" : 'none' }}>
       <div data-theme="teal" className="mx-auto max-w-6xl">
         <h2 className="sr-only">About Archery</h2>
         <section className="font-sans text-black">
@@ -15,7 +15,7 @@ export default function AboutArchery() {
                   <div className="h-full">
                     <img
                       className="h-full object-cover rounded-lg filter grayscale hover:grayscale-0"
-                      src="/assets/Activities/Image1.jpg" // Same image for the main display
+                      src="/assets/Images/Activities/Image1.jpg" // Same image for the main display
                       width="733"
                       height="412"
                       alt="Archery at Arya Gurukul"
@@ -27,7 +27,7 @@ export default function AboutArchery() {
             </div>
             <div className="p-6 bg-black text-white rounded-lg shadow-lg">
               <div className="leading-relaxed">
-                <h2 className="text-4xl font-akira font-bold bg-clip-text text-transparent bg-gradient-to-r from-gradientYellow to-gradientOrange animate-fadeIn leading-tight">
+                <h2 className="xl:text-4xl text-3xl text-white font-akira   text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text">
                   About Archery at Arya Gurukul
                 </h2>
                 <p className="mt-4">
@@ -43,14 +43,14 @@ export default function AboutArchery() {
                 <p className="mt-4">
                   Join us to experience the thrill of archery and develop your skills in this exciting sport!
                 </p>
-                <p>
+                <p className='flex items-center justify-center'>
                   <a
                     onMouseEnter={() => setHovered(true)} // Set hover state on mouse enter
                     onMouseLeave={() => setHovered(false)} // Reset hover state on mouse leave
-                    className="mt-4 inline-block px-6 py-2 bg-gradient-to-r from-gradientYellow to-gradientOrange text-white rounded transition-transform hover:scale-105"
+                    className="mt-4 inline-block px-6 py-2 bg-gradient-to-r font-bold font-akira text-lg from-yellow-300 to-red-400 text-white rounded transition-transform hover:scale-105 text-center "
                     href="/join"
                   >
-                    Join the Archery Club Today
+                    Join Now
                   </a>
                 </p>
               </div>

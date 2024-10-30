@@ -32,7 +32,7 @@ const testimonials = [
 
 const TestimonialsSlider = () => {
   return (
-    <div className="bg-black py-10 ">
+    <div className="bg-black py-10 lg:py-40 ">
       <p className="xl:text-4xl text-3xl text-white font-akira text-center   text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text " data-aos-duration="1000"
           data-aos="fade-up"
           data-aos-delay="100">

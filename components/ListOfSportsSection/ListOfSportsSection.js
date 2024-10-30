@@ -37,11 +37,10 @@ const SportsTile = ({ setImagedBackground, image, sportName }) => (
     <div
       onMouseEnter={() => setImagedBackground(`${image} bg-opacity-75`)}
       onMouseLeave={() => setImagedBackground(`${image} bg-opacity-100`)}
-        data-aos-duration="1000"
-      data-aos="fade-up"
-      data-aos-delay="400"
-      // className={`relative h-96 w-full bg-black bg-opacity-50 bg-right bg-cover cursor-pointer bg-blend-multiply ${image} hover:bg-opacity-5 filter grayscale hover:grayscale-0`}
-      className={`relative transition-all duration-300 bg-black bg-opacity-50 bg-right bg-cover cursor-default lg:w-3/3 w-full bg-blend-multiply ${image} h-96 hover:bg-opacity-5 filter grayscale hover:grayscale-0`}
+      // data-aos-duration="1000"
+      // data-aos="fade-up"
+      // data-aos-delay="400"
+      className={`relative transition-all duration-300 bg-black bg-opacity-50 bg-right bg-cover cursor-default lg:w-3/3 w-full bg-blend-multiply ${image} h-96 hover:bg-opacity-5`}
     >
       <span className="absolute left-0 right-0 bottom-3 text-base text-center text-white font-akira z-10">
         {sportName}
@@ -49,6 +48,9 @@ const SportsTile = ({ setImagedBackground, image, sportName }) => (
     </div>
   </Link>
 );
+
+
+
 
 const SportsTileCollection = ({ setImagedBackground }) => {
   const sports = [
@@ -58,6 +60,7 @@ const SportsTileCollection = ({ setImagedBackground }) => {
     { image: "bg-cricket", name: "Cricket" },
     { image: "bg-archery", name: "Archery" },
     { image: "bg-karate", name: "Karate" },
+    { image: "bg-basketballHome", name: "Basketball" },
     // { image: "bg-yoga", name: "Yoga" },
     // { image: "bg-football", name: "Football" },
     // { image: "bg-basketball", name: "Basketball" },

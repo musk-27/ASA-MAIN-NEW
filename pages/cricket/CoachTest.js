@@ -150,7 +150,7 @@ const CoachTest = () => {
 
   return (
     <section
-      className="bg-gray-900 bg-opacity-60 py-12 px-6 md:px-16 bg-cover bg-center relative lg:py-20"
+      className="bg-gray-900 bg-opacity-60 py-12 px-6 md:px-16 bg-cover bg-center relative lg:py-40"
       style={{ backgroundImage: "url(/assets/images/Cricket-bat-ball.webp)" }}
     >
       {/* Overlay for better text visibility */}

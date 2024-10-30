@@ -62,7 +62,7 @@ const DemoImageSlider = memo(() => {
   };
 
   return (
-    <div className="w-full pt-20 lg:pt-32 md:pt-32  px-1 lg:px-10 flex flex-col items-center">
+    <div className="w-full  px-6 lg:px-10 flex flex-col items-center">
       <div className="text-white font-bold font-akira uppercase text-center mb-4 text-xl md:text-3xl lg:text-3xl xl:text-3xl text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text" data-aos-duration="1000"
           data-aos="fade-up"
           data-aos-delay="100">

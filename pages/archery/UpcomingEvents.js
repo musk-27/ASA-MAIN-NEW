@@ -23,8 +23,8 @@ export default function UpcomingEvents() {
     ];
   
     return (
-      <section className="py-16 px-8 bg-gray-900 rounded-lg shadow-lg">
-        <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gradientYellow to-gradientOrange text-center mb-6">
+      <section className="py-16 px-8 bg-white rounded-lg shadow-lg">
+        <h2 className="xl:text-4xl text-3xl text-white font-akira text-center   text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text">
           Upcoming Events
         </h2>
         <ul className="list-disc list-inside text-gray-300 mt-4 space-y-4">

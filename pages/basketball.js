@@ -1,32 +1,44 @@
-import { useState } from "react";
 import Layout from "../components/Layout/Layout";
 import Slider from "../components/Slider/Slider";
-import Section from "../components/Layout/Section";
-import LargeBannerCTA from "../components/LargeBannerCTA/LargeBannerCTA";
+import Principles from "./basketball/Principles";
+import Sponsors from "./cricket/Sponsors";
+import ImageSection from "./basketball/ImageSection";
+import CenterImage from "./basketball/CenterImage";
+import SportsPress from "./basketball/SportsPress";
+import Testimonials from "./basketball/Testimonials";
+import AchievementsNumbers from "./cricket/AcheivementsNumbers";
+import CricketAcademy from "./cricket/CricketAcademy";
+import FAQ from "./cricket/FAQ";
+import CricketLearning from "./cricket/CricketLearning";
+import SliderImage from "./cricket/SliderImage"
+import SliderSection from "./basketball/SliderSection"
+import { useState } from "react";
 import Modal from "react-modal";
 import { FaPlay } from "react-icons/fa";
 
-const seo = {
-  title: "Arya Sports Academy – Our Philosophy",
-  description: "Discover the philosophy behind Arya Sports Academy.",
-};
-
 Modal.setAppElement("#__next"); // Ensure accessibility for the modal
 
-function Philosophy() {
+
+export default function Basketball() {
   const [isDark, setIsDark] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
+  const seo = {
+    title: "Cricket - Arya Sports Academy",
+    description: "Learn and play Cricket at Arya Sports Academy.",
+  };
+
   return (
     <Layout seo={seo}>
-      {/* Hero Section */}
       <section className="bg-black">
-        <Slider image={"bg-archery"} title={"Our Philosophy"} />
+        <Slider
+          image={"bg-basketballHome"}
+          title={"The Future of Basketball is here"}
+        />
       </section>
-
       <section   className={`min-h-screen transition-all py-24 duration-500 ${
           isDark ? "bg-black" : "bg-white"
         }`}>
@@ -121,48 +133,48 @@ function Philosophy() {
 </Modal>
 
       </section>
-
-      {/* Mission and Vision Section */}
-      <section
-        className="min-h-screen bg-cover bg-center"
-        style={{
-          backgroundImage: `url('/assets/images/archery-uniform-size.jpeg')`, // Use the correct path to your 'bg-archery' image
-        }}
-      >
-        <div className="flex flex-col lg:flex-row justify-between px-12 lg:px-64 py-24 lg:py-32 gap-12">
-          <div
-            className="lg:w-1/2 space-y-8 p-8 bg-opacity-50 bg-black text-white"
-            data-aos="fade-right"
-          >
-            <h2 className="text-2xl lg:text-4xl font-akira">Our Mission</h2>
-            <p className="text-base font-montserrat">
-              Our mission is to empower students to excel in both academics and
-              sports by providing them with the resources, guidance, and
-              opportunities needed to develop life-long skills, resilience, and
-              leadership. Through sports, we aim to foster holistic growth and
-              help students realize their full potential.
-            </p>
-          </div>
-          <div
-            className="lg:w-1/2 space-y-8 p-8 bg-opacity-50 bg-black text-white"
-            data-aos="fade-left"
-          >
-            <h2 className="text-2xl lg:text-4xl font-akira">Our Vision</h2>
-            <p className="text-base font-montserrat">
-              Our vision is to create a premier sports academy that serves as a
-              beacon for student-athletes to thrive, not only on the field but
-              in life. We envision a future where every student has the
-              confidence, discipline, and character to lead and inspire others
-              in their community.
-            </p>
-          </div>
-        </div>
+      <section className="py-12 bg-black">
+        <CricketLearning />
+      </section>
+      <section className="py-12 bg-black">
+        <CenterImage />
+      </section>
+      <section className="py-12 bg-black">
+        <Principles />
+      </section>
+      <section className="py-12 bg-black">
+        <SliderSection />
+      </section>
+      <section className="py-12 ">
+        <AchievementsNumbers />
+      </section>
+      <section className="bg-black py-12 ">
+      <SliderImage />
       </section>
 
-      {/* New Video Section */}
       
+
+      <section className="py-12 bg-black">
+        <ImageSection />
+      </section>
+
+      
+      <section className="py-12 bg-black">
+        <SportsPress />
+      </section>
+      
+      <section className="py-12 bg-black">
+        <Testimonials />
+      </section>
+      <section className="py-12 bg-black">
+        <FAQ />
+      </section>
+      <section className="">
+        <CricketAcademy
+          backgroundImage="/assets/images/BasketballAcademy.jpg"
+          // academyName="Basketball"
+        />
+      </section>
     </Layout>
   );
 }
-
-export default Philosophy;
