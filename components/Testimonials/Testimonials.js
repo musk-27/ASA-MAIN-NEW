@@ -1,5 +1,6 @@
 // components/Testimonials/Testimonials.js
 import React, { useState } from 'react';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; // Import icons
 
 const testimonials = [
   {
@@ -37,10 +38,16 @@ function Testimonials() {
   };
 
   return (
-    <section className="bg-gray-50 py-24 px-12 lg:px-64">
-      <h2 className="text-2xl lg:text-5xl font-akira text-center mb-8">
+    <section className="bg-black py-24 px-12 relative">
+      <h2 className="text-2xl text-white lg:text-5xl font-akira text-center mb-8">
         What Our Students Say
       </h2>
+      <div className="absolute left-0 top-64 transform -translate-y-1/2 cursor-pointer" onClick={prevTestimonial}>
+        <FaChevronLeft className="text-3xl text-gray-700 hover:text-gray-900 transition duration-200" />
+      </div>
+      <div className="absolute right-0 top-64 transform -translate-y-1/2 cursor-pointer" onClick={nextTestimonial}>
+        <FaChevronRight className="text-3xl text-gray-700 hover:text-gray-900 transition duration-200" />
+      </div>
       <div className="bg-white p-8 shadow-lg rounded-lg text-center">
         <p className="text-lg font-montserrat italic mb-4">
           "{testimonials[currentIndex].text}"
@@ -48,20 +55,6 @@ function Testimonials() {
         <h3 className="text-xl font-bold">{testimonials[currentIndex].author}</h3>
         <p className="text-sm font-montserrat">{testimonials[currentIndex].position}</p>
       </div>
-      <div className="flex justify-between mt-6">
-  <button
-    className="bg-customColor text-black px-6 py-2 rounded-lg hover:bg-customHoverColor transition duration-200"
-    onClick={prevTestimonial}
-  >
-    Previous
-  </button>
-  <button
-    className="bg-customColor text-black px-6 py-2 rounded-lg hover:bg-customHoverColor transition duration-200"
-    onClick={nextTestimonial}
-  >
-    Next
-  </button>
-</div>
     </section>
   );
 }
