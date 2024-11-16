@@ -4,25 +4,7 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const images = [
-  { src: "/assets/images/CricketSlider/1.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/2.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/3.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/4.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/6.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/7.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/8.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/9.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/10.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/11.jpg", alt: "Daycare Services", priority: false },
-  // { src: "/assets/CricketSlider/12.jpg", alt: "Daycare Services", priority: false },
-  // { src: "/assets/CricketSlider/13.jpg", alt: "Daycare Services", priority: false },
-  // { src: "/assets/CricketSlider/14.jpg", alt: "Daycare Services", priority: false },
-  // { src: "/assets/CricketSlider/15.jpg", alt: "Daycare Services", priority: false },
-  // { src: "/assets/CricketSlider/16.jpg", alt: "Daycare Services", priority: false },
-];
-
-const DemoImageSlider = memo(() => {
+const DemoImageSlider = memo(({ title, images }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -62,11 +44,11 @@ const DemoImageSlider = memo(() => {
   };
 
   return (
-    <div className="w-full  px-6 lg:px-10 flex flex-col items-center">
+    <div className="w-full px-6 lg:px-10 flex flex-col items-center">
       <div className="text-white font-bold font-akira uppercase text-center mb-4 text-xl md:text-3xl lg:text-3xl xl:text-3xl text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text" data-aos-duration="1000"
           data-aos="fade-up"
           data-aos-delay="100">
-        Activities
+        {title}
       </div>
       <div className="p-2 rounded-lg w-full max-w-7xl mx-auto" data-aos-duration="1000"
           data-aos="fade-up"

@@ -33,7 +33,7 @@ export default function FAQs() {
   return (
     <section className="py-16 px-4 mx-auto max-w-5xl">
       <h2 
-        className="lg:text-4xl text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gradientYellow to-gradientOrange text-center mb-8 uppercase font-akira" 
+        className="lg:text-4xl text-2xl font-bold text-center mb-8 uppercase  text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text" 
         data-aos-duration="1000"
         data-aos="fade-up"
         data-aos-delay="100"

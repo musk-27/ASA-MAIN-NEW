@@ -53,9 +53,10 @@ const ServingUs = () => {
     <div className="w-full bg-black"> {/* Serving the Sports Community Section */}
       <section className=" text-white py-24 px-6 lg:px-12 flex flex-col lg:flex-row items-center mx-auto max-w-screen-xl">
         <div className="lg:w-1/2 mb-12 lg:mb-0">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4 font-akira">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text">
             Dedicated to Serving the Sports Community
           </h2>
+          
           <ul className="text-lg mb-6 space-y-2">
             <li>✔️ State-of-the-art facilities for various sports</li>
             <li>✔️ Affordable and flexible membership options</li>
@@ -71,8 +72,8 @@ const ServingUs = () => {
               <p className="text-lg font-bold">Book Now</p>
             </div>
           </div>
-          <button className="bg-[#a0cf4e] text-black font-bold py-2 px-6 rounded">
-            Get Involved
+          <button className="bg-[#51AEDA] text-black font-bold py-2 px-6 rounded">
+            Enrol Now
           </button>
         </div>
         <div className="lg:w-1/2">

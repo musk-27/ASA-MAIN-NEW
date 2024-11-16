@@ -66,6 +66,7 @@ module.exports = {
         archeryImg: "url('/assets/images/archery.jfif')",
         cricketMain: "url('/assets/images/Activities/player.jfif')",
         basketballHome: "url('/assets/images/basketballHome.jpg')",
+        aboutUs: "url('/assets/images/aboutUs.jpg')",
       }),
       cursor: {
         rockon: "url('/cursors/sports.png'), auto",

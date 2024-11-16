@@ -14,20 +14,29 @@ const VideoSection = () => {
       <div className="absolute inset-0 bg-black"></div>
 
       <div className="relative z-20 lg:px-40 py-20 lg:py-24 text-center text-white mx-auto max-w-7xl">
-        <h2 className="font-akira">You can trust 10+ years of experience making successful websites!</h2>
-        <h3 className="mt-4 text-lg">Celebrate the Spirit of Sports!</h3>
-        <p className="mt-2 text-justify px-4">
-          Sports bring people together, transcending borders and cultures. From the adrenaline of football 
-          to the grace of gymnastics, the world of sports is filled with excitement, passion, and remarkable stories. 
-          Whether it’s the thrill of a last-minute goal, the elegance of a well-executed routine, or the 
-          camaraderie in team sports, there’s something for everyone to enjoy.
+        <h2 className="text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text" data-aos-duration="1000"
+            data-aos="fade-up"
+            data-aos-delay="100">Building Champions through School Sports</h2>
+        <h3 className="mt-10 text-lg italic" data-aos-duration="1000"
+            data-aos="fade-up"
+            data-aos-delay="100">"Where Every Student Finds Their Passion"</h3>
+        <p className="mt-10 text-justify px-4 text-lg font-montserrat" data-aos-duration="1000"
+            data-aos="fade-up"
+            data-aos-delay="100">
+          At our school, sports play a vital role in shaping the character of students. Whether it’s the competitive 
+          spirit of track and field, the teamwork required in football, or the skill and concentration in basketball, 
+          each sport offers a unique learning experience. Our sports programs are designed to nurture athletic talent 
+          and promote physical fitness, teamwork, and discipline.
         </p>
-        <p className="mt-4 text-justify px-4">
-          Join us as we explore various sports, share thrilling highlights, and celebrate the athletes who inspire us 
-          every day. No matter your favorite sport, there’s always a new story waiting to be discovered!
+        <p className="mt-4 text-justify px-4 text-lg font-montserrat" data-aos-duration="1000"
+            data-aos="fade-up"
+            data-aos-delay="200">
+          Through our sports initiatives, students not only excel in physical activities but also build life skills 
+          such as resilience, leadership, and time management. From local tournaments to regional championships, we 
+          create opportunities for every student to challenge themselves and grow.
         </p>
-        <div className="flex justify-center lg:py-10 py-20">
-          <button onClick={openModal} className="button flex items-center bg-blue-600 p-2 rounded hover:bg-blue-700">
+        <div className="flex justify-center mt-10">
+          <button onClick={openModal} className="button flex items-center bg-yellow-300 p-2 rounded hover:bg-yellow-700">
             <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="26px">
               <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" fill="currentColor"></path>
             </svg>

@@ -38,17 +38,17 @@ function Testimonials() {
   };
 
   return (
-    <section className="bg-black py-24 px-12 relative">
-      <h2 className="text-2xl text-white lg:text-5xl font-akira text-center mb-8">
+    <section className="bg-black px-12 relative flex flex-col justify-center items-center">
+      <h2 className="text-2xl text-white lg:text-5xl text-center mb-8 text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text">
         What Our Students Say
       </h2>
-      <div className="absolute left-0 top-64 transform -translate-y-1/2 cursor-pointer" onClick={prevTestimonial}>
+      {/* <div className="absolute left-0 top-64 transform -translate-y-1/2 cursor-pointer" onClick={prevTestimonial}>
         <FaChevronLeft className="text-3xl text-gray-700 hover:text-gray-900 transition duration-200" />
-      </div>
-      <div className="absolute right-0 top-64 transform -translate-y-1/2 cursor-pointer" onClick={nextTestimonial}>
+      </div> */}
+      {/* <div className="absolute right-0 top-64 transform -translate-y-1/2 cursor-pointer" onClick={nextTestimonial}>
         <FaChevronRight className="text-3xl text-gray-700 hover:text-gray-900 transition duration-200" />
-      </div>
-      <div className="bg-white p-8 shadow-lg rounded-lg text-center">
+      </div> */}
+      <div className="bg-white p-8 shadow-lg rounded-lg text-center w-full lg:w-[700px]">
         <p className="text-lg font-montserrat italic mb-4">
           "{testimonials[currentIndex].text}"
         </p>
