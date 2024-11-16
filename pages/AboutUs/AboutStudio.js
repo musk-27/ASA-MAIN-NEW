@@ -117,34 +117,10 @@ const AboutStudio = () => {
                         </div>
                     </div>
 
-                    <TrainingFeatures />
+                    {/* <TrainingFeatures /> */}
 
                     {/* Main Image and Highlight Box */}
-                    <div className="flex flex-col lg:flex-row items-center lg:space-x-8 mb-10">
-                        {/* Main Image */}
-                        <div className="lg:w-3/5 mb-8 lg:mb-0">
-                            <Image
-                                src="/assets/images/cricket.jpg" // Replace with your image path
-                                alt="Studio"
-                                width={700}
-                                height={400}
-                                className="rounded-lg object-cover w-full h-auto"
-                            />
-                        </div>
-
-                        {/* Highlight Box */}
-                        <div className="lg:w-2/5 p-6 bg-gray-100 rounded-lg">
-                            <h3 className="text-2xl font-bold mb-4">
-                                Your Comfort Is Our Priority
-                            </h3>
-                            <p className="text-lg text-gray-600 mb-4">
-                                At our academy, we ensure that every athlete feels valued and supported. Our facilities are designed for comfort and performance.
-                            </p>
-                            <button className="bg-[#a0cf4e] text-white font-bold py-2 px-4 rounded">
-                                Learn More
-                            </button>
-                        </div>
-                    </div>
+                  
                 </section>
             </div>
         </div>

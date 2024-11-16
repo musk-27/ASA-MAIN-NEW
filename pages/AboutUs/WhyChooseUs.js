@@ -4,7 +4,7 @@ import Image from "next/image";
 const WhyChooseUs = () => {
   return (
     <div className="max-w-screen-xl mx-auto"> {/* Why Choose Us Section */}
-      <section className="bg-white py-24 px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+      <section className="bg-white lg:py-24 px-6 lg:px-20 flex flex-col lg:flex-row items-center">
         <div className="lg:w-1/2">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 font-akira">
             Why Choose ASA

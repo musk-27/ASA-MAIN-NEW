@@ -11,6 +11,7 @@ import ServingUs from "./AboutUs/ServingUs";
 import AboutStudio from "./AboutUs/AboutStudio";
 import VideoSection from "./AboutUs/VideoSection";
 import WhatandWhy from "./AboutUs/WhatandWhy";
+import SliderImage from "../pages/cricket/SliderImage"
 
 const seo = {
   title: "Arya Sports Academy – Welcome To Your Classroom",
@@ -26,17 +27,31 @@ function About() {
       <section className="bg-black">
         <Slider image={"bg-classroom"} title={"About Us"} />
       </section>
+      
+
+      <div className="py-12">
 
       <WhyChooseUs/>
+      </div>
+      <div className="py-12">
+
       <VideoSection/>
+      </div>
+      <div className="py-12">
+
       <WhatandWhy/>
+      </div>
+    
+      
 
      <ServingUs/>
 
-      <AboutStudio/>
+     <div className="py-12"><SliderImage/></div>
+
+      {/* <AboutStudio/> */}
 
 
-      <FitnessHeroSection />
+     
 
       <section className="lg:px-20">
         <div className="lg:py-10">
@@ -95,13 +110,8 @@ function About() {
 </section>
 
 
-      {/* Testimonials Section */}
-      <section className="bg-[#f5f5e7] py-24">
-        <h2 className="text-center text-3xl font-bold mb-10">
-          What Our Clients Say
-        </h2>
+     
         <Testimonials />
-      </section>
 
       <section className="bg-black text-white py-12 px-6">
       <div className="text-center mb-8">
