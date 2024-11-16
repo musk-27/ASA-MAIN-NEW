@@ -31,12 +31,6 @@ const newImages = [
   { src: "/assets/images/CricketSlider/8.jpg", alt: "Daycare Services", priority: false },
   { src: "/assets/images/CricketSlider/9.jpg", alt: "Daycare Services", priority: false },
   { src: "/assets/images/CricketSlider/10.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/11.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/12.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/13.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/14.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/15.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/16.jpg", alt: "Daycare Services", priority: false },
 ];
 
 

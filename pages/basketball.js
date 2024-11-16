@@ -6,10 +6,10 @@ import ImageSection from "./basketball/ImageSection";
 import CenterImage from "./basketball/CenterImage";
 import SportsPress from "./basketball/SportsPress";
 import Testimonials from "./basketball/Testimonials";
-import AchievementsNumbers from "./cricket/AcheivementsNumbers";
-import CricketAcademy from "./cricket/CricketAcademy";
-import FAQ from "./cricket/FAQ";
-import CricketLearning from "./cricket/CricketLearning";
+import AchievementsNumbers from "../pages/cricket/AcheivementsNumbers";
+import CricketAcademy from "../pages/cricket/CricketAcademy";
+import FAQ from "../pages/cricket/FAQ";
+import CricketLearning from "../pages/cricket/CricketLearning";
 import SliderImage from "./cricket/SliderImage"
 import SliderSection from "./basketball/SliderSection"
 import { useState } from "react";
@@ -18,6 +18,18 @@ import { FaPlay } from "react-icons/fa";
 
 Modal.setAppElement("#__next"); // Ensure accessibility for the modal
 
+const newImages = [
+  { src: "/assets/images/CricketSlider/1.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/2.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/3.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/4.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/6.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/7.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/8.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/9.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/10.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/11.jpg", alt: "Daycare Services", priority: false },
+];
 
 export default function Basketball() {
   const [isDark, setIsDark] = useState(false);
@@ -148,9 +160,9 @@ export default function Basketball() {
       <section className="py-12 ">
         <AchievementsNumbers />
       </section>
-      <section className="bg-black py-12 ">
-      <SliderImage />
-      </section>
+      <div className="py-12 bg-black">
+        <SliderImage title="ACHEVEMENTS" images={newImages} />
+      </div>
 
       
 

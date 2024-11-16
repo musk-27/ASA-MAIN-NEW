@@ -5,6 +5,7 @@ import Slider from "../components/Slider/Slider";
 
 import ImagesText from "./cricket/ImagesText";
 import { Swiper, SwiperSlide } from "swiper/react";
+import SliderImage from "../pages/cricket/SliderImage";
 // import 'swiper/swiper-bundle.min.css';
 import "swiper/css"; // Default styles
 import "swiper/css/navigation"; // Optional: for navigation
@@ -42,6 +43,24 @@ const CricketPage = () => {
   };
 
   const [imagedBackground, setImagedBackground] = useState("bg-sports-edited");
+
+  const newImages = [
+    { src: "/assets/images/CricketSlider/1.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/2.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/3.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/4.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/6.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/7.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/8.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/9.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/10.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/11.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/12.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/13.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/14.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/15.jpg", alt: "Daycare Services", priority: false },
+    { src: "/assets/images/CricketSlider/16.jpg", alt: "Daycare Services", priority: false },
+  ];
 
   return (
     <Layout seo={seo}>
@@ -86,7 +105,9 @@ const CricketPage = () => {
 
       {/* FAQ */}
      
-      <CricketAcademy />
+      <div className="py-12 bg-black">
+        <SliderImage title="ACHEVEMENTS" images={newImages} />
+      </div>
       {/* Modal for Joining */}
       
     </Layout>
