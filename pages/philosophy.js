@@ -24,7 +24,7 @@ function Philosophy() {
     <Layout seo={seo}>
       {/* Hero Section */}
       <section className="bg-black">
-        <Slider image={"bg-archery"} title={"Our Philosophy"} />
+        <Slider image={"bg-visionmissionbg"} title={"Our Philosophy"} />
       </section>
 
       <section   className={`min-h-screen transition-all py-24 duration-500 ${
@@ -82,15 +82,6 @@ function Philosophy() {
               </div>
             </div>
 
-          {/* Play Button Column */}
-          <div className="lg:w-1/2 flex justify-center">
-            <button
-              className="bg-red-600 text-white rounded-full p-8 lg:p-12"
-              onClick={openModal}
-            >
-              <FaPlay className="text-7xl" />
-            </button>
-          </div>
         </div>
 
         {/* Modal for YouTube Video */}
@@ -124,40 +115,44 @@ function Philosophy() {
 
       {/* Mission and Vision Section */}
       <section
-        className="min-h-screen bg-cover bg-center"
-        style={{
-          backgroundImage: `url('/assets/images/archery-uniform-size.jpeg')`, // Use the correct path to your 'bg-archery' image
-        }}
-      >
-        <div className="flex flex-col lg:flex-row justify-between px-12 lg:px-64 py-24 lg:py-32 gap-12">
-          <div
-            className="lg:w-1/2 space-y-8 p-8 bg-opacity-50 bg-black text-white"
-            data-aos="fade-right"
-          >
-            <h2 className="text-2xl lg:text-4xl font-akira">Our Mission</h2>
-            <p className="text-base font-montserrat">
-              Our mission is to empower students to excel in both academics and
-              sports by providing them with the resources, guidance, and
-              opportunities needed to develop life-long skills, resilience, and
-              leadership. Through sports, we aim to foster holistic growth and
-              help students realize their full potential.
-            </p>
-          </div>
-          <div
-            className="lg:w-1/2 space-y-8 p-8 bg-opacity-50 bg-black text-white"
-            data-aos="fade-left"
-          >
-            <h2 className="text-2xl lg:text-4xl font-akira">Our Vision</h2>
-            <p className="text-base font-montserrat">
-              Our vision is to create a premier sports academy that serves as a
-              beacon for student-athletes to thrive, not only on the field but
-              in life. We envision a future where every student has the
-              confidence, discipline, and character to lead and inspire others
-              in their community.
-            </p>
-          </div>
-        </div>
-      </section>
+  className="min-h-screen bg-cover bg-center relative"
+  style={{
+    backgroundImage: `url('/assets/images/visionmissionbg.jpg')`, // Use the correct path to your 'bg-archery' image
+  }}
+>
+  {/* Dull overlay for background image only */}
+  <div className="absolute inset-0 bg-black opacity-40 z-0"></div> {/* Semi-transparent overlay for the background */}
+
+  <div className="flex flex-col lg:flex-row justify-between px-12 lg:px-64 py-24 lg:py-32 gap-12 relative z-10">
+    <div
+      className="lg:w-1/2 space-y-8 p-8 bg-opacity-50 bg-black text-white rounded-3xl"
+      data-aos="fade-right"
+    >
+      <h2 className="text-2xl lg:text-4xl font-akira">Our Mission</h2>
+      <p className="text-base font-montserrat">
+        Our mission is to empower students to excel in both academics and
+        sports by providing them with the resources, guidance, and
+        opportunities needed to develop life-long skills, resilience, and
+        leadership. Through sports, we aim to foster holistic growth and
+        help students realize their full potential.
+      </p>
+    </div>
+    <div
+      className="lg:w-1/2 space-y-8 p-8 bg-opacity-50 bg-black text-white rounded-3xl"
+      data-aos="fade-left"
+    >
+      <h2 className="text-2xl lg:text-4xl font-akira">Our Vision</h2>
+      <p className="text-base font-montserrat">
+        Our vision is to create a premier sports academy that serves as a
+        beacon for student-athletes to thrive, not only on the field but
+        in life. We envision a future where every student has the
+        confidence, discipline, and character to lead and inspire others
+        in their community.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* New Video Section */}
       

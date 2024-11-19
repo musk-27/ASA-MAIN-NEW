@@ -62,6 +62,7 @@ module.exports = {
         cricket: "url('/assets/images/Cricket/Gallery2.JPG')",
         karate: "url('/assets/images/karate-uniform-size.jpeg')",
         archery: "url('/assets/images/archery-uniform-size.jpeg')",
+        visionmissionbg: "url('/assets/images/visionmissionbg.jpg')",
         cricketImg: "url('/assets/images/cricket.jpg')",
         archeryImg: "url('/assets/images/archery.jfif')",
         cricketMain: "url('/assets/images/Activities/player.jfif')",
