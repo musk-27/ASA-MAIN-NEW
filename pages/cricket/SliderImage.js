@@ -190,7 +190,7 @@ const SliderImage = memo(() => {
 
   return (
     <div className="w-full  px-4 lg:px-10 flex flex-col items-center">
-      <div className="text-white font-bold font-brandBold uppercase text-center mb-4 text-xl md:text-3xl lg:text-3xl xl:text-3xl">
+      <div className="text-center text-white text-2xl font-akira lg:text-5xl text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text">
         Activities
       </div>
       {/* <Image src={TeamLine} alt="Underline" width={500} height={2} /> */}

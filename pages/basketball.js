@@ -18,18 +18,18 @@ import { FaPlay } from "react-icons/fa";
 
 Modal.setAppElement("#__next"); // Ensure accessibility for the modal
 
-const basketballImages = [
-  "/assets/images/Activities/Image1.jpg",
-  "/assets/images/Activities/cricketGround.jpg",
-  "/assets/images/Activities/Image3.jpg",
-];
-const basketballContent = [
-  "At [School Name], our basketball facilities are designed for players to thrive. With professional-grade courts and equipment, we create an environment that fosters skill development and teamwork.",
-  "Our basketball program emphasizes strategic play, physical fitness, and leadership skills. Guided by experienced coaches, players receive personalized training to excel in the sport, whether they’re beginners or advanced athletes.",
-  "Join us to experience the energy of the game and achieve your full potential both on and off the court. Basketball at [School Name] is more than a game; it’s a journey of growth and achievement.",
-];
+// const images = [
+//   "/assets/images/CricketSlider/10.jpg",
+//   "/assets/images/CricketSlider/11.jpg",
+//   "/assets/images/CricketSlider/8.jpg",
+// ];
 
-;
+// const content = [
+//   "Basketball is more than just a game.",
+//   "Elevate your skills to the next level.",
+//   "Join our community of passionate players.",
+// ];
+
 
 export default function Basketball() {
   const [isDark, setIsDark] = useState(false);
@@ -147,19 +147,10 @@ export default function Basketball() {
       </section>
       <section className="py-12 bg-black">
         <SliderSection
-          images={basketballImages}
-          title="Elevate Your Game: Basketball at Its Best"
-          content={basketballContent}
+         
         />
       </section>
-      <section className="py-2 bg-black">
-        <SliderSection
-          images={basketballImages}
-          title="Elevate Your Game: Basketball at Its Best"
-          content={basketballContent}
-          reverseOrder={true}
-        />
-      </section>
+     
 
       <section className="py-12 ">
         <AchievementsNumbers />
