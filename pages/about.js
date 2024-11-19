@@ -21,17 +21,7 @@ const seo = {
   description: "Arya Sports Academy is your classroom outside your classroom.",
 };
 
-const newImages = [
-  { src: "/assets/images/CricketSlider/1.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/2.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/3.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/4.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/6.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/7.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/8.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/9.jpg", alt: "Daycare Services", priority: false },
-  { src: "/assets/images/CricketSlider/10.jpg", alt: "Daycare Services", priority: false },
-];
+
 
 
 function About() {
@@ -55,7 +45,7 @@ function About() {
       <ServingUs />
 
       <div className="py-12 bg-black">
-        <SliderImage title="ACHEVEMENTS" images={newImages} />
+        <SliderImage />
       </div>
 
       {/* <AboutStudio/> */}

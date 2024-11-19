@@ -1,10 +1,21 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 // import 'swiper/swiper-bundle.min.css';
 import "swiper/css"; // Default styles
 import "swiper/css/navigation"; // Optional: for navigation
 import "swiper/css/pagination"; // Optional: for pagination
 import SliderImage from "./SliderImage";
+
+const newImages = [
+  { src: "/assets/images/CricketSlider/1.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/2.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/3.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/4.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/6.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/7.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/8.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/9.jpg", alt: "Daycare Services", priority: false },
+  { src: "/assets/images/CricketSlider/10.jpg", alt: "Daycare Services", priority: false },
+];
 
 const Acheivements = () => {
   return (
@@ -97,7 +108,9 @@ const Acheivements = () => {
         </div>
 
         {/* Slider for Winning Moments */}
-        <SliderImage />
+        <div className="py-12 bg-black">
+        <SliderImage title="ACHEVEMENTS" images={newImages} />
+      </div>
       </div>
     </section>
   );

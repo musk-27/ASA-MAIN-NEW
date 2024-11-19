@@ -11,7 +11,7 @@ import CricketAcademy from "../pages/cricket/CricketAcademy";
 import FAQ from "../pages/cricket/FAQ";
 import CricketLearning from "../pages/cricket/CricketLearning";
 import SliderImage from "./cricket/SliderImage";
-import SliderSection from "./basketball/SliderSection";
+import SliderSection from "../pages/basketball/SliderSection";
 import { useState } from "react";
 import Modal from "react-modal";
 import { FaPlay } from "react-icons/fa";
@@ -20,8 +20,8 @@ Modal.setAppElement("#__next"); // Ensure accessibility for the modal
 
 const basketballImages = [
   "/assets/images/Activities/Image1.jpg",
-      "/assets/images/Activities/cricketGround.jpg",
-      "/assets/images/Activities/Image3.jpg",
+  "/assets/images/Activities/cricketGround.jpg",
+  "/assets/images/Activities/Image3.jpg",
 ];
 const basketballContent = [
   "At [School Name], our basketball facilities are designed for players to thrive. With professional-grade courts and equipment, we create an environment that fosters skill development and teamwork.",
@@ -29,58 +29,7 @@ const basketballContent = [
   "Join us to experience the energy of the game and achieve your full potential both on and off the court. Basketball at [School Name] is more than a game; it’s a journey of growth and achievement.",
 ];
 
-const newImages = [
-  {
-    src: "/assets/images/CricketSlider/1.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/2.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/3.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/4.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/6.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/7.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/8.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/9.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/10.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-  {
-    src: "/assets/images/CricketSlider/11.jpg",
-    alt: "Daycare Services",
-    priority: false,
-  },
-];
+;
 
 export default function Basketball() {
   const [isDark, setIsDark] = useState(false);
@@ -121,7 +70,7 @@ export default function Basketball() {
                 onMouseEnter={() => setIsDark(!isDark)}
                 onMouseLeave={() => setIsDark(!isDark)}
               >
-                  Basketball Excellence
+                Basketball Excellence
               </h1>
               <p
                 data-aos-duration="1000"
@@ -129,10 +78,10 @@ export default function Basketball() {
                 data-aos-delay="100"
                 className="text-base text-justify font-montserrat"
               >
-                At Arya Sports Academy, basketball is more than just a sport; it’s a 
-          powerful tool for shaping character and building community. The game 
-          teaches precision, agility, and mental toughness while fostering teamwork 
-          and communication skills.
+                At Arya Sports Academy, basketball is more than just a sport;
+                it’s a powerful tool for shaping character and building
+                community. The game teaches precision, agility, and mental
+                toughness while fostering teamwork and communication skills.
               </p>
               <p
                 data-aos-duration="1000"
@@ -140,10 +89,11 @@ export default function Basketball() {
                 data-aos-delay="200"
                 className="text-base text-justify font-montserrat"
               >
-                We focus on helping players develop their skills in shooting, passing, 
-          and defensive strategies. Beyond the court, our students learn to approach 
-          challenges with confidence and adaptability. Through basketball, we aim to 
-          nurture leaders who can excel both in the game and in life.
+                We focus on helping players develop their skills in shooting,
+                passing, and defensive strategies. Beyond the court, our
+                students learn to approach challenges with confidence and
+                adaptability. Through basketball, we aim to nurture leaders who
+                can excel both in the game and in life.
               </p>
             </div>
           </div>
@@ -196,21 +146,26 @@ export default function Basketball() {
         <Principles />
       </section>
       <section className="py-12 bg-black">
-        <SliderSection  images={basketballImages}
-        title="Elevate Your Game: Basketball at Its Best"
-        content={basketballContent} />
+        <SliderSection
+          images={basketballImages}
+          title="Elevate Your Game: Basketball at Its Best"
+          content={basketballContent}
+        />
       </section>
       <section className="py-2 bg-black">
-        <SliderSection  images={basketballImages}
-        title="Elevate Your Game: Basketball at Its Best"
-        content={basketballContent} reverseOrder={true} />
+        <SliderSection
+          images={basketballImages}
+          title="Elevate Your Game: Basketball at Its Best"
+          content={basketballContent}
+          reverseOrder={true}
+        />
       </section>
-     
+
       <section className="py-12 ">
         <AchievementsNumbers />
       </section>
       <div className="py-12 bg-black">
-        <SliderImage title="ACHEVEMENTS" images={newImages} />
+        <SliderImage />
       </div>
 
       <section className="py-12 bg-black">
