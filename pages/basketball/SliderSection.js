@@ -20,29 +20,27 @@ export default function SliderSection() {
     <div className="min-h-screen grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:px-20 p-4">
       {/* Left Section: Image Slider */}
       <div className="">
-     
-
         <Swiper
-            modules={[Autoplay]}
-            spaceBetween={20}
-            slidesPerView={1}
-            loop={true}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            className="w-full"
-          >
-            {images.map((image, index) => (
-              <SwiperSlide key={index}>
-                <img
-                  src={image}
-                  alt={`Slide ${index + 1}`}
-                  className="w-full h-auto object-cover rounded-lg shadow-lg"
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          modules={[Autoplay]}
+          spaceBetween={20}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          className="w-full"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <img
+                src={image}
+                alt={`Slide ${index + 1}`}
+                className="w-full h-auto object-cover rounded-lg shadow-lg"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
 
       {/* Right Section: Content */}
@@ -61,7 +59,9 @@ export default function SliderSection() {
           proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum.
         </p>
-        <button className="text-white bg-red-600 p-2 mt-8 rounded-full">ENROL NOW</button>
+        <button className="text-white bg-red-600 p-2 mt-8 rounded-full">
+          ENROL NOW
+        </button>
       </div>
     </div>
   );

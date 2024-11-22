@@ -28,12 +28,17 @@ const Menu = [
       { name: 'Volleyball', url: '/volleyball' },
     ],
   },
+  // {
+  //   name: 'Philosophy',
+  //   url: '/philosophy',
+  //   description: 'Principles we believe in',
+  // },
+
   {
-    name: 'Philosophy',
-    url: '/philosophy',
-    description: 'Principles we believe in',
+    name: 'Contact',
+    url: '/contact',
+    description: 'Know more about our heritage',
   },
-  
   {
     name: 'About',
     url: '/about',

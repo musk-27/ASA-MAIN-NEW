@@ -150,11 +150,12 @@ export default function Basketball() {
          
         />
       </section>
+
+
+      
      
 
-      <section className="py-12 ">
-        <AchievementsNumbers />
-      </section>
+      
       <div className="py-12 bg-black">
         <SliderImage />
       </div>

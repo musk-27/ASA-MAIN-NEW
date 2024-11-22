@@ -15,7 +15,6 @@ import Acheivements from "./cricket/Acheivements";
 import Sponsors from "./cricket/Sponsors";
 import Features from "./cricket/Features";
 import FAQ from "./cricket/FAQ";
-import Gallery from "./archery/Gallery";
 const CricketPage = () => {
   const seo = {
     title: "Cricket - Arya Sports Academy",
@@ -91,7 +90,6 @@ const CricketPage = () => {
       <CoachTest />
 
       <Acheivements />
-      <Gallery />
 
       <Sponsors />
       <Testimonials />
