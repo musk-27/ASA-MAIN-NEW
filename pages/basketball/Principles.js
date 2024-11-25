@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "react-modal";
+// import Modal from "react-modal";
 import {
   FaBasketballBall,
   FaMedal,
@@ -10,9 +10,9 @@ import {
 import AOS from "aos";
 
 // Set the app element for accessibility (for screen readers)
-if (typeof window !== "undefined") {
-  Modal.setAppElement(document.body);
-}
+// if (typeof window !== "undefined") {
+//   Modal.setAppElement(document.body);
+// }
 
 const principles = [
   {
@@ -51,23 +51,23 @@ const principles = [
 ];
 
 const Principles = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [selectedPrinciple, setSelectedPrinciple] = useState(null);
+  // const [modalIsOpen, setModalIsOpen] = useState(false);
+  // const [selectedPrinciple, setSelectedPrinciple] = useState(null);
 
-  const openModal = (principle) => {
-    setSelectedPrinciple(principle);
-    setModalIsOpen(true);
-  };
+  // const openModal = (principle) => {
+  //   setSelectedPrinciple(principle);
+  //   setModalIsOpen(true);
+  // };
 
-  const closeModal = () => {
-    setModalIsOpen(false);
-    setSelectedPrinciple(null);
-  };
+  // const closeModal = () => {
+  //   setModalIsOpen(false);
+  //   setSelectedPrinciple(null);
+  // };
 
   return (
-    <section className="bg-black text-white py-12">
+    <section className="bg-black text-white">
       <p
-        className="text-center text-white lg:py-10 py-10 text-2xl font-akira lg:text-5xl text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
+        className="text-center text-white  py-10 text-2xl font-akira lg:text-5xl text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
         data-aos-duration="1000"
         data-aos="fade-up"
         data-aos-delay="100"
@@ -86,19 +86,19 @@ const Principles = () => {
               <div className="mb-4 flex justify-center">{principle.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{principle.title}</h3>
               <p className="text-sm mb-4">{principle.description}</p>
-              <button
+              {/* <button
                 onClick={() => openModal(principle)}
                 className="text-white hover:text-yellow-500 transition-colors duration-300"
               >
                 {principle.link}
-              </button>
+              </button> */}
             </div>
           ))}
         </div>
       </div>
 
       {/* Modal */}
-      <Modal
+      {/* <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         className="modal relative"
@@ -107,7 +107,6 @@ const Principles = () => {
       >
         {selectedPrinciple && (
           <div className="flex flex-col md:flex-row relative bg-black p-1 lg:p-4">
-            {/* Close Button */}
             <button
               onClick={closeModal}
               className="absolute -top-2 right-0 text-white"
@@ -135,7 +134,7 @@ const Principles = () => {
             </div>
           </div>
         )}
-      </Modal>
+      </Modal> */}
     </section>
   );
 };

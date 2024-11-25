@@ -28,12 +28,23 @@ const Menu = [
       { name: 'Volleyball', url: '/volleyball' },
     ],
   },
-  // {
-  //   name: 'Philosophy',
-  //   url: '/philosophy',
-  //   description: 'Principles we believe in',
-  // },
-
+  {
+    name: 'Camp',
+    url: '/camp',
+    description: 'Join the biggest upcoming ASA Fest!',
+    subMenu: [
+      { name: 'Summer Camp', url: '/summerCamp' },
+      { name: 'Sports Camp', url: '/sportsCamp' },
+      { name: 'Basketball Camp', url: '/basketballCamp' },
+      { name: 'Cricket Camp', url: '/cricketCamp' },
+      { name: 'Cricket Camp', url: '/cricket-camp' },
+      { name: 'Cricket Camp', url: '/cricket-camp' },
+      { name: 'Cricket Camp', url: '/cricket-camp' },
+      { name: 'Cricket Camp', url: '/cricket-camp' },
+      { name: 'Cricket Camp', url: '/cricket-camp' },
+      { name: 'Cricket Camp', url: '/cricket-camp' },
+    ],
+  },
   {
     name: 'Contact',
     url: '/contact',
@@ -49,13 +60,6 @@ const Menu = [
     url: '/institution',
     description: 'Foundations that we stand on',
   },
-
-  {
-    name: 'Camp',
-    url: '/camp-2021',
-    description: 'Join the biggest upcoming ASA Fest!',
-  },
-  
 ];
 
 export { Menu };

@@ -15,6 +15,7 @@ import SliderSection from "../pages/basketball/SliderSection";
 import { useState } from "react";
 import Modal from "react-modal";
 import { FaPlay } from "react-icons/fa";
+import CircleCTA from "../components/LargeBannerCTA/CircleCTA";
 
 Modal.setAppElement("#__next"); // Ensure accessibility for the modal
 
@@ -29,7 +30,6 @@ Modal.setAppElement("#__next"); // Ensure accessibility for the modal
 //   "Elevate your skills to the next level.",
 //   "Join our community of passionate players.",
 // ];
-
 
 export default function Basketball() {
   const [isDark, setIsDark] = useState(false);
@@ -139,6 +139,8 @@ export default function Basketball() {
       <section className="py-12 bg-black">
         <CricketLearning />
       </section>
+      
+
       <section className="py-12 bg-black">
         <CenterImage />
       </section>
@@ -146,16 +148,9 @@ export default function Basketball() {
         <Principles />
       </section>
       <section className="py-12 bg-black">
-        <SliderSection
-         
-        />
+        <SliderSection />
       </section>
 
-
-      
-     
-
-      
       <div className="py-12 bg-black">
         <SliderImage />
       </div>

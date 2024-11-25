@@ -8,13 +8,13 @@ import HeroSection from "./archery/HeroSection"
 import AboutArchery from "./archery/AboutArchery"
 // import AchievementsSection from "./archery/Achievements"
 import CallToAction from "./archery/CallToAction"
-import GallerySection from "./archery/PhotoGallery"
+// import GallerySection from "./archery/PhotoGallery"
 import FAQs from "./archery/FAQs";
 import TrainingAndCoaches from "./archery/TrainingAndCoaches"
 import Facilities from "./archery/Facilities";
 import Testimonials from "./archery/Testimonials";
 import UpcomingEvents from "./archery/UpcomingEvents";
-import Gallery from "./archery/Gallery";
+// import Gallery from "./archery/Gallery";
 import Features from "./archery/Features";
 
 const ArcheryPage = () => {
@@ -46,7 +46,7 @@ const ArcheryPage = () => {
       <Facilities />
       <Testimonials />
       <UpcomingEvents />
-      <Gallery />
+      {/* <Gallery /> */}
       <FAQs />
       <CallToAction />
     </div>

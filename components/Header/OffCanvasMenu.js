@@ -328,43 +328,44 @@ const OffCanvasMenu = ({ isShowMenu, pathname, setIsShowMenu }) => {
                     data-aos-duration="1000"
                     key={menuItem.name}
                   >
-                    {menuItem.subMenu ? (
-                      <div>
-                        <button
-                          onClick={() =>
-                            setIsSportsDropdownOpen(!isSportsDropdownOpen)
-                          }
-                          className={`text-white hover:translate-x-3 transform transition cursor-pointer font-akira ${
-                            pathname === menuItem.url &&
-                            "bg-gradient-to-tr from-yellow-500 to-white text-transparent bg-clip-text"
-                          }`}
-                        >
-                          {menuItem.name}
-                        </button>
-                        {isSportsDropdownOpen && (
-                          <div className="grid grid-cols-4 gap-2 pl-4 mt-1">
-                            {menuItem.subMenu.map((subItem) => (
-                              <Link key={subItem.name} href={subItem.url}>
-                                <div className="text-white p-2 text-center hover:bg-gray-700 transition cursor-pointer">
-                                  {subItem.name}
-                                </div>
-                              </Link>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    ) : (
-                      <Link href={menuItem.url}>
-                        <li
-                          className={`text-white hover:translate-x-3 transform transition cursor-pointer font-akira ${
-                            pathname === menuItem.url &&
-                            "bg-gradient-to-tr from-yellow-500 to-white text-transparent bg-clip-text"
-                          }`}
-                        >
-                          {menuItem.name}
-                        </li>
-                      </Link>
-                    )}
+                   {menuItem.subMenu ? (
+  <div>
+    <button
+      onClick={() =>
+        setIsSportsDropdownOpen(!isSportsDropdownOpen)
+      }
+      className={`text-white hover:translate-x-3 transform transition cursor-pointer font-akira ${
+        pathname === menuItem.url &&
+        "bg-gradient-to-tr from-yellow-500 to-white text-transparent bg-clip-text"
+      }`}
+    >
+      {menuItem.name}
+    </button>
+    {isSportsDropdownOpen && (
+      <div className="grid grid-cols-4 gap-2 pl-4 mt-1">
+        {menuItem.subMenu.map((subItem) => (
+          <Link key={subItem.name} href={subItem.url}>
+            <div className="text-white p-2 text-center hover:bg-gray-700 transition cursor-pointer">
+              {subItem.name}
+            </div>
+          </Link>
+        ))}
+      </div>
+    )}
+  </div>
+) : (
+  <Link href={menuItem.url}>
+    <li
+      className={`text-white hover:translate-x-3 transform transition cursor-pointer font-akira ${
+        pathname === menuItem.url &&
+        "bg-gradient-to-tr from-yellow-500 to-white text-transparent bg-clip-text"
+      }`}
+    >
+      {menuItem.name}
+    </li>
+  </Link>
+)}
+
                     {!menuItem.subMenu && (
                       <p className="text-xs italic text-white font-inter">
                         {menuItem.description}

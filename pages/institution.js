@@ -31,11 +31,68 @@ function Institution() {
       <section className="bg-black">
         <Slider image={"bg-visionmissionbg"} title={"Our Institution"} />
       </section>
+      <div class="relative bg-black">
+        <div class="absolute inset-x-0 bottom-0">
+          <svg
+            viewBox="0 0 224 12"
+            fill="currentColor"
+            class="w-full -mb-1 text-white"
+            preserveAspectRatio="none"
+          >
+            <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z"></path>
+          </svg>
+        </div>
+        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div class="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+            <h2 class="mb-6 font-sans text-3xl text-center font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+              Subscribe to our newsletter
+            </h2>
+            <p class="mb-6 text-base text-indigo-200 md:text-lg">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae. explicabo. Sed ut perspiciatis unde omnis.
+            </p>
+            {/* <form class="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
+              <input
+                placeholder="Email"
+                required=""
+                type="text"
+                class="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-deep-purple-900 focus:border-teal-accent-700 focus:outline-none focus:shadow-outline"
+              />
+              <a
+                href="/"
+                class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-gray-200 transition duration-200 rounded shadow-md md:w-auto hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
+              >
+                Subscribe
+              </a>
+            </form> */}
+            <p class="max-w-md mb-10 text-xs tracking-wide text-indigo-100 sm:text-sm sm:mx-auto md:mb-16">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque.
+            </p>
+            {/* <a
+              href="/"
+              aria-label="Scroll down"
+              class="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="currentColor"
+              >
+                <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z"></path>
+              </svg>
+            </a> */}
+          </div>
+        </div>
+      </div>
       <div className="py-12">
         <OurApproach />
       </div>
       <div>
-        <Features />
+        {/* <Features /> */}
       </div>
       {/* <div className="py-0">
         <OurStoryVideo />
@@ -70,7 +127,9 @@ function Institution() {
       <OurCenters/>
 
 
-
+      <div>
+        <UpcomingEvents />
+      </div>
 
       <section class="pt-8 lg:pt-32 bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] bg-center bg-cover">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
@@ -130,7 +189,7 @@ function Institution() {
     </a>
     <div class="flex justify-center">
       <img
-        src="https://pagedone.io/asset/uploads/1691054543.png"
+        src="https://www.cupolasports.com/wp-content/uploads/2023/12/IMG_7885-1140x468.jpg"
         alt="Sports Dashboard Image"
       />
     </div>
@@ -388,63 +447,7 @@ function Institution() {
           </button>
         </div>
       </div>
-      <div class="relative bg-red-600">
-        <div class="absolute inset-x-0 bottom-0">
-          <svg
-            viewBox="0 0 224 12"
-            fill="currentColor"
-            class="w-full -mb-1 text-white"
-            preserveAspectRatio="none"
-          >
-            <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z"></path>
-          </svg>
-        </div>
-        <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div class="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-            <h2 class="mb-6 font-sans text-3xl text-center font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-              Subscribe to our newsletter
-            </h2>
-            <p class="mb-6 text-base text-indigo-200 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo. Sed ut perspiciatis unde omnis.
-            </p>
-            <form class="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
-              <input
-                placeholder="Email"
-                required=""
-                type="text"
-                class="flex-grow w-full h-12 px-4 mb-3 text-white transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-deep-purple-900 focus:border-teal-accent-700 focus:outline-none focus:shadow-outline"
-              />
-              <a
-                href="/"
-                class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-gray-200 transition duration-200 rounded shadow-md md:w-auto hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none"
-              >
-                Subscribe
-              </a>
-            </form>
-            <p class="max-w-md mb-10 text-xs tracking-wide text-indigo-100 sm:text-sm sm:mx-auto md:mb-16">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque.
-            </p>
-            <a
-              href="/"
-              aria-label="Scroll down"
-              class="flex items-center justify-center w-10 h-10 mx-auto text-white duration-300 transform border border-gray-400 rounded-full hover:text-teal-accent-400 hover:border-teal-accent-400 hover:shadow hover:scale-110"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
-                viewBox="0 0 12 12"
-                fill="currentColor"
-              >
-                <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
+      
       <div class="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">
         <div data-theme="teal" class="mx-auto max-w-6xl">
           <h2 class="sr-only">Featured case study</h2>
@@ -497,7 +500,7 @@ function Institution() {
           </section>
         </div>
       </div>
-      <div class="max-w-screen-xl mx-auto px-6 md:px-8 lg:px-12 pt-6 lg:pt-12 pb-6 lg:pb-12">
+      {/* <div class="max-w-screen-xl mx-auto px-6 md:px-8 lg:px-12 pt-6 lg:pt-12 pb-6 lg:pb-12">
         <div class="bg-yellow-100 py-8 lg:py-12 px-6 relative text-center">
           <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
             Start monitoring your websites with our bot
@@ -518,8 +521,8 @@ function Institution() {
           </a>
           <p class="pt-4">No credit card required, cancel anytime.</p>
         </div>
-      </div>
-      <main class="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
+      </div> */}
+      {/* <main class="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
         <div class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
           <div class=" mx-auto px-6 flex relative py-16">
             <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
@@ -556,8 +559,8 @@ function Institution() {
             </div>
           </div>
         </div>
-      </main>
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      </main> */}
+      {/* <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-indigo-700 rounded-3xl p-8 text-center sm:p-16 md:px-24 md:py-20 lg:px-28">
           <div class="max-w-2xl mx-auto">
             <h2 class="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -645,78 +648,16 @@ function Institution() {
             </li>
           </ul>
         </div>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <YoutubeVideo />
-      </div>
-      <div>
-        <UpcomingEvents />
-      </div>
-      <div class="e-card playing">
-        <div class="image"></div>
+      </div> */}
+     
+      
+      
+      
 
-        <div class="wave"></div>
-        <div class="wave"></div>
-        <div class="wave"></div>
-
-        <div class="infotop">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            class="icon"
-          >
-            <path
-              fill="currentColor"
-              d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
-  4.89862C2.99153 5.7992 2 7.47596 2 9.2763V14.7235C2 16.5238 2.99153 18.2014 4.58674 19.1012L9.41368
-  21.8252C10.2079 22.2734 11.105 22.5 12.0046 22.5C12.6952 22.5 13.3874 22.3657 14.0349 22.0954C14.2204
-  22.018 14.4059 21.9273 14.5872 21.8252L19.4141 19.1012C19.9765 18.7831 20.4655 18.3728 20.8651
-  17.8825C21.597 16.9894 22 15.8671 22 14.7243V9.27713C22 7.47678 21.0085 5.7992 19.4133 4.89862ZM4.10784
-  14.7235V9.2763C4.10784 8.20928 4.6955 7.21559 5.64066 6.68166L10.4676 3.95848C10.9398 3.69152 11.4701
-  3.55804 11.9996 3.55804C12.5291 3.55804 13.0594 3.69152 13.5324 3.95848L18.3593 6.68166C19.3045 7.21476
-  19.8922 8.20928 19.8922 9.2763V9.75997C19.1426 9.60836 18.377 9.53091 17.6022 9.53091C14.7929 9.53091
-  12.1041 10.5501 10.0309 12.3999C8.36735 13.8847 7.21142 15.8012 6.68783 17.9081L5.63981 17.3165C4.69466
-  16.7834 4.10699 15.7897 4.10699 14.7235H4.10784ZM10.4676 20.0413L8.60933 18.9924C8.94996 17.0479 9.94402
-  15.2665 11.4515 13.921C13.1353 12.4181 15.3198 11.5908 17.6022 11.5908C18.3804 11.5908 19.1477 11.6864
-  19.8922 11.8742V14.7235C19.8922 15.2278 19.7589 15.7254 19.5119 16.1662C18.7615 15.3596 17.6806 14.8528
-   16.4783 14.8528C14.2136 14.8528 12.3781 16.6466 12.3781 18.8598C12.3781 19.3937 12.4861 19.9021 12.68
-   20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z"
-            ></path>
-          </svg>
-          <br />
-          UI / EX Designer
-          <br />
-          <div class="name">MikeAndrewDesigner</div>
-        </div>
-      </div>
-      <div class="cardRotation relative w-[200px] h-[250px] rounded-[14px] z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-        <div class="bg absolute top-[5px] left-[5px] w-[190px] h-[240px] z-[2] bg-white/95 backdrop-blur-[24px] rounded-[10px] overflow-hidden outline-[2px] outline-white"></div>
-        <div class="blob absolute z-[1] top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-[#ff0000] opacity-100 filter blur-[12px] animate-blob-bounce"></div>
-      </div>
-      <div class="cardNumber relative max-w-[300px] max-h-[320px] bg-gradient-to-b from-[#c3e6ec] to-[#a7d1d9] rounded-lg p-8 m-3 text-decoration-none z-0 overflow-hidden font-sans group">
-        <p class="card-title text-[#262626] text-[1.5em] font-bold mb-2">
-          Product Name
-        </p>
-        <p class="small-desc text-[#452c2c] text-base font-normal leading-[1.5em]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
-          veritatis nobis saepe itaque rerum nostrum aliquid obcaecati odio
-          officia deleniti. Expedita iste et illum, quaerat pariatur consequatur
-          eum nihil itaque!
-        </p>
-        <div class="go-corner absolute flex items-center justify-center w-[2em] h-[2em] top-0 right-0 overflow-hidden bg-gradient-to-tl from-[#6293c8] to-[#384c6c] rounded-tr-[4px] rounded-bl-[32px]">
-          <div class="go-arrow text-white text-[1.5em] font-mono -mt-1 -mr-1">
-            →
-          </div>
-        </div>
-      </div>
-      /* From Uiverse.io by eslam-hany */
-      <div class="book">
-        <p>Hello</p>
-        <div class="cover">
-          <p>Hover Me</p>
-        </div>
-      </div>
+     
      
     </Layout>
   );
