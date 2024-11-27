@@ -24,8 +24,8 @@ const ContactForm = () => {
             Enter Message
           </label>
         </div>
-        <a>Forgot your password?</a>
-        <button class="submit-btn">Sign In</button>
+        {/* <a>Forgot your password?</a> */}
+        <button class="submit-btn">Submit</button>
       </form>
     </div></div>
   )

@@ -10,7 +10,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-black-900 to-purple-800 text-white px-6 min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-gradient-to-r from-black-900 to-purple-800 text-white px-4 lg:py-20 flex flex-col items-center justify-center">
       {/* Heading */}
       <p className="font-akira text-center text-lg lg:text-4xl font-bold mb-10">
         This is why you should <br /> look no further

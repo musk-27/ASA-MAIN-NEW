@@ -43,8 +43,8 @@ import Section from '../Layout/Section';
 import CircleCTA from './CircleCTA'; // Ensure this path is correct
 
 const LargeBannerCTA = () => (
-  <Section className="min-h-screen m-auto bg-black bg-cover bg-feature-image-1">
-    <div className="w-full min-h-screen px-12 py-24 bg-gradient-to-r from-black to-transparent backdrop-filter">
+  <Section className="m-auto bg-black bg-cover bg-feature-image-1">
+    <div className="w-full px-6 py-24 bg-gradient-to-r from-black to-transparent backdrop-filter">
       <div className="max-w-5xl m-auto">
         <div className="space-y-5 lg:w-1/3">
           <h1

@@ -14,7 +14,7 @@ const VideoSection = () => {
       <div className="absolute inset-0 bg-black"></div>
 
       <div className="relative z-20 lg:px-40 py-20 lg:py-24 text-center text-white mx-auto max-w-7xl">
-        <h2 className="text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text" data-aos-duration="1000"
+        <h2 className="lg:text-4xl text-lg text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text" data-aos-duration="1000"
             data-aos="fade-up"
             data-aos-delay="100">Building Champions through School Sports</h2>
         <h3 className="mt-10 text-lg italic" data-aos-duration="1000"
@@ -36,7 +36,7 @@ const VideoSection = () => {
           create opportunities for every student to challenge themselves and grow.
         </p>
         <div className="flex justify-center mt-10">
-          <button onClick={openModal} className="button flex items-center bg-yellow-300 p-2 rounded hover:bg-yellow-700">
+          <button onClick={openModal} className=" flex items-center bg-yellow-600 p-10 rounded-full hover:bg-yellow-700">
             <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="26px">
               <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" fill="currentColor"></path>
             </svg>
@@ -46,7 +46,7 @@ const VideoSection = () => {
 
       {/* Modal for YouTube video */}
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+        <div className="p-4 fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
           <div className="relative bg-white rounded-lg overflow-hidden max-w-3xl w-full">
             {/* Close button */}
             <button onClick={closeModal} className="absolute top-2 right-2 text-gray-500 hover:text-gray-700">

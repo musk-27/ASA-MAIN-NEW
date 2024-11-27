@@ -7,9 +7,10 @@ import OurApproach from "./Institution/OurApproach";
 import OurStoryVideo from "./Institution/OurStoryVideo";
 import VissionMission from "./Institution/VissionMission";
 import Features from "./Institution/Features";
-import UpcomingEvents from "./Institution/UpcomingEvents";
+import UpcomingEvents from "../pages/archery/UpcomingEvents";
 import YoutubeVideo from "./Institution/YoutubeVideo";
 import OurCenters from "./Institution/OurCenters";
+import CircleCTA from "../components/LargeBannerCTA/CircleCTA";
 
 const seo = {
   title: "Arya Sports Academy – Our Philosophy",
@@ -131,323 +132,6 @@ function Institution() {
         <UpcomingEvents />
       </div>
 
-      <section class="pt-8 lg:pt-32 bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] bg-center bg-cover">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
-    <div class="border border-indigo-600 p-1 w-60 mx-auto rounded-full flex items-center justify-between mb-4">
-      <span class="font-inter text-xs font-medium text-gray-900 ml-3">
-      Explore top sports experiences.
-      </span>
-      <a
-        href="javascript:;"
-        class="w-8 h-8 rounded-full flex justify-center items-center bg-indigo-600"
-      >
-        <svg
-          width="17"
-          height="16"
-          viewBox="0 0 17 16"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M2.83398 8.00019L12.9081 8.00019M9.75991 11.778L13.0925 8.44541C13.3023 8.23553 13.4073 8.13059 13.4073 8.00019C13.4073 7.86979 13.3023 7.76485 13.0925 7.55497L9.75991 4.22241"
-            stroke="white"
-            stroke-width="1.6"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </a>
-    </div>
-    <h1 class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl leading-[50px]">
-      Master Your Game with Our
-      <span class="text-yellow-600">Sporting Tools</span>
-    </h1>
-    <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">
-      Whether you're into football, tennis, basketball, or any other sport, our platform helps you stay at the top of your game.
-    </p>
-    <a
-      href="javascript:;"
-      class="w-full md:w-auto mb-14 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white rounded-full bg-indigo-600 shadow-xs hover:bg-indigo-700 transition-all duration-500"
-    >
-      Join Now
-      <svg
-        class="ml-2"
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
-          stroke="white"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-    </a>
-    <div class="flex justify-center">
-      <img
-        src="https://www.cupolasports.com/wp-content/uploads/2023/12/IMG_7885-1140x468.jpg"
-        alt="Sports Dashboard Image"
-      />
-    </div>
-  </div>
-</section>
-
-      <div className="h-screen w-screen bg-black">
-        <div className="mx-auto max-w-7xl pt-16 sm:pt-24">
-          <div className="space-y-8 lg:space-y-0 lg:grid lg:grid-cols-12 lg:gap-8">
-            <div className="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
-              <div className="space-y-8">
-                <div className="space-y-4">
-                  <div className="space-y-2">
-                    <span className="rounded-full uppercase bg-pink-500 px-3 py-0.5 text-sm font-semibold leading-5 text-white">
-                      Excelling in Sports
-                    </span>
-                    <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                      Arya Gurukul Sports Academy <br />
-                      <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-600">
-                        Excellence in Action
-                      </span>
-                      <br />
-                    </h1>
-                  </div>
-
-                  <p className="text-base text-gray-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    At Arya Global Sports Academy, we cultivate athletic
-                    excellence, teamwork, and leadership. Our expert coaches are
-                    committed to developing young athletes, preparing them not
-                    just for sports but for life. Whether on the field, court,
-                    or track, we provide the resources and guidance to help
-                    every student athlete reach their full potential.
-                  </p>
-                </div>
-
-                <div className="border-t border-gray-700"></div>
-
-                <div className="flex space-x-4 items-center text-white">
-                  <div className="flex items-center space-x-2">
-                    <div className="flex flex-shrink-0 -space-x-1">
-                      <img
-                        loading="lazy"
-                        width="40"
-                        height="40"
-                        decoding="async"
-                        className="h-10 w-10 max-w-none rounded-full ring-2 ring-white"
-                        style={{ color: "transparent" }}
-                        src="https://randomuser.me/api/portraits/men/29.jpg"
-                      />
-                      <img
-                        loading="lazy"
-                        width="40"
-                        height="40"
-                        decoding="async"
-                        className="h-10 w-10 max-w-none rounded-full ring-2 ring-white"
-                        style={{ color: "transparent" }}
-                        src="https://randomuser.me/api/portraits/men/90.jpg"
-                      />
-                      <img
-                        loading="lazy"
-                        width="40"
-                        height="40"
-                        decoding="async"
-                        className="h-10 w-10 max-w-none rounded-full ring-2 ring-white"
-                        style={{ color: "transparent" }}
-                        src="https://randomuser.me/api/portraits/men/75.jpg"
-                      />
-                      <img
-                        loading="lazy"
-                        width="40"
-                        height="40"
-                        decoding="async"
-                        className="h-10 w-10 max-w-none rounded-full ring-2 ring-white"
-                        style={{ color: "transparent" }}
-                        src="https://randomuser.me/api/portraits/men/5.jpg"
-                      />
-                    </div>
-
-                    <span className="flex-shrink-0 text-xs font-medium leading-5">
-                      +15
-                    </span>
-                  </div>
-
-                  <div className="h-4 border-l border-gray-700"></div>
-
-                  <div className="flex items-center">
-                    <svg
-                      className="h-4 w-4 fill-current text-yellow-500"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"></path>
-                    </svg>
-                    <svg
-                      className="h-4 w-4 fill-current text-yellow-500"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"></path>
-                    </svg>
-                    <svg
-                      className="h-4 w-4 fill-current text-yellow-500"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"></path>
-                    </svg>
-                    <svg
-                      className="h-4 w-4 fill-current text-yellow-500"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"></path>
-                    </svg>
-                    <svg
-                      className="h-4 w-4 fill-current text-yellow-500"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"></path>
-                    </svg>
-                  </div>
-                  <div className="h-4 border-l border-gray-700"></div>
-
-                  <a href="" target="_blank">
-                    <img
-                      src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1&theme=light"
-                      className="w-32 h-8 md:w-48 md:h-12 lg:w-64 lg:h-16"
-                      width="250"
-                      height="54"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center w-full col-span-6">
-              <div className="px-6 h-full lg:h-full w-full max-w-2xl col-span-6 flex items-center mx-auto">
-                <div style={{ width: "100%", height: "100%" }}>
-                  <div style={{ width: "100%", height: "100%" }}>
-                    <iframe
-                      frameBorder="0"
-                      allowFullScreen="1"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      width="100%"
-                      height="100%"
-                      src="https://www.youtube.com/embed/eSSyLSGBSp8?controls=0"
-                      id="widget2"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <header class="relative">
-        <div class="mx-auto w-full max-w-7xl px-5 md:px-10">
-          <div class="mx-auto max-w-3xl text-center">
-            <h1 class="mb-6 pb-4 text-4xl font-bold text-white md:text-6xl">
-              The Website You Want Without The Dev Time.
-            </h1>
-            <p class="mx-auto mb-5 max-w-[528px] text-xl text-[#636262] lg:mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis, lectus
-            </p>
-            <a
-              href="#"
-              class="inline-block rounded-full bg-[#c9fd02] px-8 py-4 text-center font-bold text-black transition hover:border-black hover:bg-white"
-            >
-              Get Started
-            </a>
-          </div>
-          <div class="mx-auto mt-16 grid max-w-[1040px] grid-cols-2 gap-8 py-20 sm:grid-cols-3 sm:gap-12 md:grid-cols-5">
-            <div class="mx-auto">
-              <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a267_Microsoft%20Logo.svg"
-                alt=""
-                class="inline-block"
-              />
-            </div>
-            <div class="mx-auto">
-              <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a26a_PayPal%20Logo.svg"
-                alt=""
-                class="inline-block"
-              />
-            </div>
-            <div class="mx-auto">
-              <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a268_Google%20Logo.svg"
-                alt=""
-                class="inline-block"
-              />
-            </div>
-            <div class="mx-auto">
-              <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a269_Chase%20Logo.svg"
-                alt=""
-                class="inline-block"
-              />
-            </div>
-            <div class="mx-auto">
-              <img
-                src="https://uploads-ssl.webflow.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a26b_Walmart%20Logo.svg"
-                alt=""
-                class="inline-block"
-              />
-            </div>
-          </div>
-        </div>
-      </header>
-      <div class="flex flex-col p-5 lg:px-48 lg:py-11">
-        <div class="bg-gray-100 p-5 mb-10">
-          <h1 class="font-bold text-2xl mb-2">Tailwind Rocks!</h1>
-          <p class="my-3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius eaque
-            a ipsam aliquid omnis, beatae possimus recusandae illum rem. Minima
-            sequi voluptas repudiandae id? Quae, facere quam suscipit sed,
-            aperiam sapiente pariatur soluta enim perferendis illum veniam
-            excepturi doloribus ducimus voluptatibus numquam officiis expedita
-            culpa hic sequi quasi reprehenderit iste obcaecati nostrum.
-            Consequuntur aliquam, assumenda architecto animi veniam dolore
-            dolor?
-          </p>
-          <button class="text-white font-semibold bg-blue-600 hover:bg-blue-800 p-2 my-1 rounded">
-            Read More...
-          </button>
-        </div>
-        <div class="bg-gray-100 p-5 mb-10">
-          <h1 class="font-bold text-2xl mb-2">Tailwind Rocks!</h1>
-          <p class="my-3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius eaque
-            a ipsam aliquid omnis, beatae possimus recusandae illum rem. Minima
-            sequi voluptas repudiandae id? Quae, facere quam suscipit sed,
-            aperiam sapiente pariatur soluta enim perferendis illum veniam
-            excepturi doloribus ducimus voluptatibus numquam officiis expedita
-            culpa hic sequi quasi reprehenderit iste obcaecati nostrum.
-            Consequuntur aliquam, assumenda architecto animi veniam dolore
-            dolor?
-          </p>
-          <button class="text-white font-semibold bg-blue-600 hover:bg-blue-800 p-2 my-1 rounded">
-            Read More...
-          </button>
-        </div>
-        <div class="bg-gray-100 p-5 mb-10">
-          <h1 class="font-bold text-2xl mb-2">Tailwind Rocks!</h1>
-          <p class="my-3">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius eaque
-            a ipsam aliquid omnis, beatae possimus recusandae illum rem. Minima
-            sequi voluptas repudiandae id? Quae, facere quam suscipit sed,
-            aperiam sapiente pariatur soluta enim perferendis illum veniam
-            excepturi doloribus ducimus voluptatibus numquam officiis expedita
-            culpa hic sequi quasi reprehenderit iste obcaecati nostrum.
-            Consequuntur aliquam, assumenda architecto animi veniam dolore
-            dolor?
-          </p>
-          <button class="text-white font-semibold bg-blue-600 hover:bg-blue-800 p-2 my-1 rounded">
-            Read More...
-          </button>
-        </div>
-      </div>
-      
       <div class="min-h-screen flex flex-col p-8 sm:p-16 md:p-24 justify-center bg-white">
         <div data-theme="teal" class="mx-auto max-w-6xl">
           <h2 class="sr-only">Featured case study</h2>
@@ -500,6 +184,82 @@ function Institution() {
           </section>
         </div>
       </div>
+
+      <section class="pt-8 lg:pt-32 bg-[url('https://pagedone.io/asset/uploads/1691055810.png')] bg-center bg-cover">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative text-center">
+    <div class="border border-yellow-600 p-1 w-60 mx-auto rounded-full flex items-center justify-between mb-4">
+      <span class="font-inter text-xs font-medium text-gray-900 ml-3">
+      Explore top sports experiences.
+      </span>
+      <a
+        href="javascript:;"
+        class="w-8 h-8 rounded-full flex justify-center items-center bg-[#F47C47]"
+      >
+        <svg
+          width="17"
+          height="16"
+          viewBox="0 0 17 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.83398 8.00019L12.9081 8.00019M9.75991 11.778L13.0925 8.44541C13.3023 8.23553 13.4073 8.13059 13.4073 8.00019C13.4073 7.86979 13.3023 7.76485 13.0925 7.55497L9.75991 4.22241"
+            stroke="white"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </div>
+    <div className="flex flex-col items-center"><h1 class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl leading-[50px]">
+      Master Your Game with Our
+      <span class="text-[#F47C47]">Sporting Tools</span>
+    </h1>
+    <p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-9">
+      Whether you're into football, tennis, basketball, or any other sport, our platform helps you stay at the top of your game.
+    </p>
+    <CircleCTA
+      link="/OurPartners"
+      title="Explore Our"
+      subtitle="Partners"
+      imageClass="bg-sports-edited"
+    /></div>
+    {/* <a
+      href="javascript:;"
+      class="w-full md:w-auto mb-14 inline-flex items-center justify-center py-3 px-7 text-base font-semibold text-center text-white rounded-full bg-indigo-600 shadow-xs hover:bg-indigo-700 transition-all duration-500"
+    >
+      Join Now
+      <svg
+        class="ml-2"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a> */}
+    <div class="flex justify-center mt-5">
+      <img
+        src="https://www.cupolasports.com/wp-content/uploads/2023/12/IMG_7885-1140x468.jpg"
+        alt="Sports Dashboard Image"
+      />
+    </div>
+  </div>
+</section>
+
+      
+     
+      
+      
       {/* <div class="max-w-screen-xl mx-auto px-6 md:px-8 lg:px-12 pt-6 lg:pt-12 pb-6 lg:pb-12">
         <div class="bg-yellow-100 py-8 lg:py-12 px-6 relative text-center">
           <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">

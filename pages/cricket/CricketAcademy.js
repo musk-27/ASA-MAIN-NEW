@@ -23,7 +23,7 @@ const SportsAcademy = forwardRef(({ backgroundImage, academyName }, ref) => {
 
       <div className="relative bg-black bg-opacity-80 py-20 p-4 z-10">
         <div className="max-w-5xl mx-auto text-center lg:py-20">
-          <div className="w-full max-w-3xl mx-auto bg-black bg-opacity-60 lg:rounded-full md:rounded-full py-10">
+          <div className="w-full max-w-3xl mx-auto bg-black bg-opacity-60  lg:rounded-full md:rounded-full py-10">
             <h1
               className="text-xl lg:text-4xl font-bold mt-2 mb-6 uppercase text-transparent transition-all duration-200 transform font-akira bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
               data-aos-duration="1000"

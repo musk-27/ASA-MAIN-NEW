@@ -23,15 +23,21 @@ export default function UpcomingEvents() {
     ];
   
     return (
-      <section className="py-16 px-8 bg-white rounded-lg shadow-lg">
-        <h2 className="xl:text-4xl text-3xl text-white font-akira text-center   text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text">
-          Upcoming Events
-        </h2>
-        <ul className="list-disc list-inside text-gray-300 mt-4 space-y-4">
+      <section className="py-16 px-8 bg-white">
+        <h2
+        data-aos-duration="1000"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        className="xl:text-4xl text-xl text-black font-akira text-center lg:py-10 "
+        // className="xl:text-4xl text-xl text-black font-akira text-center lg:py-10 text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
+      >
+        UPCOMING Events
+      </h2>
+        <ul className="list-none list-inside text-gray-300 mt-4 space-y-4">
           {events.map((event, index) => (
-            <li key={index} className="p-4 bg-gray-800 rounded-lg shadow-md transition-transform transform hover:scale-105">
-              <h3 className="text-xl font-semibold text-gradientYellow">{event.title}</h3>
-              <p className="text-gray-400">{event.date}</p>
+            <li key={index} className="p-4 bg-black rounded-lg shadow-md transition-transform transform hover:scale-105">
+              <h3 className="text-xl font-semibold text-[#F47C47] font-montserrat">{event.title}</h3>
+              <p className="text-gray-400 italic">{event.date}</p>
               <p className="mt-2">{event.description}</p>
             </li>
           ))}

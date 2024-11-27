@@ -54,13 +54,24 @@ const SportsTile = ({ setImagedBackground, image, sportName }) => (
 
 const SportsTileCollection = ({ setImagedBackground }) => {
   const sports = [
-    { image: "bg-cricket", name: "Cricket" },
-    { image: "bg-archery", name: "Archery" },
-    { image: "bg-karate", name: "Karate" },
+    { image: "bg-basketballHome", name: "Basketball" },
     { image: "bg-cricket", name: "Cricket" },
     { image: "bg-archery", name: "Archery" },
     { image: "bg-karate", name: "Karate" },
     { image: "bg-basketballHome", name: "Basketball" },
+    { image: "bg-basketballHome", name: "Boxing" },
+    { image: "bg-basketballHome", name: "Cycling" },
+    { image: "bg-basketballHome", name: "Football" },
+    { image: "bg-basketballHome", name: "Hockey" },
+    { image: "bg-basketballHome", name: "Karate" },
+    { image: "bg-basketballHome", name: "Running" },
+    { image: "bg-basketballHome", name: "Shooting" },
+    { image: "bg-basketballHome", name: "Soccer" },
+    { image: "bg-basketballHome", name: "Swimming" },
+    { image: "bg-basketballHome", name: "Taekwondo" },
+    { image: "bg-basketballHome", name: "Tennis" },
+    { image: "bg-basketballHome", name: "Volleyball" },
+    { image: "bg-basketballHome", name: "Yoga" },
     // { image: "bg-yoga", name: "Yoga" },
     // { image: "bg-football", name: "Football" },
     // { image: "bg-basketball", name: "Basketball" },
@@ -110,9 +121,9 @@ const SportsTileCollection = ({ setImagedBackground }) => {
 
 const ListOfSportsSection = ({ imagedBackground, setImagedBackground }) => (
   <Section
-    className={`min-h-screen px-12 py-1 bg-black bg-center bg-cover transition-all duration-300 bg-blend-multiply ${imagedBackground}`}
+    className={`min-h-screen py-1 bg-black bg-center bg-cover transition-all duration-300 bg-blend-multiply ${imagedBackground}`}
   >
-    <div className="max-w-screen-xl mx-auto px-6 py-24">
+    <div className="max-w-screen-xl mx-auto px-4 py-24">
       <SectionHeader />
       <SportsTileCollection setImagedBackground={setImagedBackground} />
     </div>

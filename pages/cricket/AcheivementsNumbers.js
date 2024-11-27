@@ -55,12 +55,12 @@ const AchievementsNumbers = () => {
         data-aos-duration="1000"
         data-aos="fade-up"
         data-aos-delay="100"
-        className="xl:text-4xl text-xl text-black font-akira text-center lg:py-10 "
+        className="lg:text-4xl text-2xl text-black font-akira text-center lg:py-10 "
         // className="xl:text-4xl text-xl text-black font-akira text-center lg:py-10 text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
       >
         Our Outstanding Achievements
       </h2>
-      <div className="mt-5 grid grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full max-w-[1200px] mx-auto px-5 font-akira">
+      <div className="mt-5 grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-y-5 gap-x-5 lg:gap-x-10 place-items-center w-full mx-auto px-5 lg:px-20 font-akira">
         <div
           // data-aos-duration="1000"
           // data-aos="fade-up"
