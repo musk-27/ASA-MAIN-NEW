@@ -21,6 +21,14 @@ const seo = {
   description: "Arya Sports Academy is your classroom outside your classroom.",
 };
 
+const cricketImages = [
+  { src: "/assets/images/CricketSlider/1.jpg", alt: "Cricket Image 1", priority: false },
+  { src: "/assets/images/CricketSlider/2.jpg", alt: "Cricket Image 2", priority: false },
+  { src: "/assets/images/CricketSlider/3.jpg", alt: "Cricket Image 3", priority: false },
+  { src: "/assets/images/CricketSlider/4.jpg", alt: "Cricket Image 4", priority: false },
+  { src: "/assets/images/CricketSlider/5.jpg", alt: "Cricket Image 5", priority: false },
+];
+
 
 
 
@@ -45,7 +53,13 @@ function About() {
       <ServingUs />
 
       <div className="py-12 bg-black">
-        <SliderImage />
+      <SliderImage
+  images={[
+    { src: "/assets/images/slider1.jpg", alt: "Image 1", priority: true },
+    { src: "/assets/images/slider2.jpg", alt: "Image 2", priority: false },
+    { src: "/assets/images/slider3.jpg", alt: "Image 3", priority: true },
+  ]}
+/>
       </div>
 
       {/* <AboutStudio/> */}

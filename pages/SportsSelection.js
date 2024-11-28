@@ -8,6 +8,11 @@ const allSports = [
     link: "/cricket",
   },
   {
+    name: "Basketball",
+    image: "/assets/images/basketballHome.jpg",
+    link: "/basketball",
+  },
+  {
     name: "Archery",
     image: "/assets/images/archery.jpg",
     link: "/archery",
@@ -107,7 +112,7 @@ const SportsSelection = () => {
 
   return (
     <section className="bg-black py-12 lg:px-20">
-      <div className="mx-auto px-4">
+      <div className="mx-auto px-4 max-w-screen-xl"> {/* Added max-w-screen-xl */}
         <p
           className="text-center text-white py-10 text-2xl md:text-4xl font-akira lg:text-5xl text-transparent transition-all duration-200 transform bg-gradient-to-tr from-yellow-300 to-red-500 bg-clip-text"
           data-aos-duration="1000"
